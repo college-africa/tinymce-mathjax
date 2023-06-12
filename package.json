@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dimakorotkov/tinymce-mathjax/issues"
   },
-  "homepage": "https://github.com/dimakorotkov/tinymce-mathjax#readme"
+  "homepage": "https://github.com/dimakorotkov/tinymce-mathjax#readme",
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  }
 }
