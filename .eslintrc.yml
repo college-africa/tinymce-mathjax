@@ -4,6 +4,6 @@ env:
 extends: eslint:recommended
 overrides: []
 parserOptions:
-  ecmaVersion: latest
+  ecmaVersion: 2018
 rules:
   no-unused-vars: warn
