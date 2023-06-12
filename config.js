@@ -13,10 +13,17 @@
       }
     }
   }
-  MathJax = {
+
+  window.MathJax = {
     options: {
       processHtmlClass: className,
       ignoreHtmlClass: '.*',
+    },
+    loader: {
+      load: ['input/asciimath', ''],
+    },
+    asciimath: {
+      delimiters: [['`', '`']],
     },
   };
 })();
