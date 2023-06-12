@@ -19,11 +19,6 @@
       processHtmlClass: className,
       ignoreHtmlClass: '.*',
     },
-    loader: {
-      load: ['input/asciimath', ''],
-    },
-    asciimath: {
-      delimiters: [['`', '`']],
-    },
+    loader: { load: ['input/asciimath', 'output/chtml', 'ui/menu'] },
   };
 })();
